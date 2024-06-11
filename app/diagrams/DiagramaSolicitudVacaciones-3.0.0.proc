@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
   <process:MainProcess xmi:id="_z7aYgCN5Ee-H9PTMz2iHSg" name="DiagramaSolicitudVacaciones" version="3.0.0" bonitaModelVersion="8">
     <elements xmi:type="process:Pool" xmi:id="_z7aYgSN5Ee-H9PTMz2iHSg" name="SolicitudVacaciones" version="3.0.0">
-      <elements xmi:type="process:Lane" xmi:id="_z7aYgiN5Ee-H9PTMz2iHSg" name="Empleado (lane) " actor="_z7aY6yN5Ee-H9PTMz2iHSg">
+      <elements xmi:type="process:Lane" xmi:id="_z7aYgiN5Ee-H9PTMz2iHSg" name="Solicitante" actor="_z7aY6yN5Ee-H9PTMz2iHSg">
         <elements xmi:type="process:StartEvent" xmi:id="_z7aYgyN5Ee-H9PTMz2iHSg" name="Ingresar solicitud" outgoing="_z7aY0iN5Ee-H9PTMz2iHSg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_z7aYhCN5Ee-H9PTMz2iHSg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_z7aYhSN5Ee-H9PTMz2iHSg" name="" content="" returnTypeFixed="true"/>
@@ -44,7 +44,7 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_z7aYuyN5Ee-H9PTMz2iHSg" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_420ikCN5Ee-H9PTMz2iHSg" name="Validador" actor="_z7aY6yN5Ee-H9PTMz2iHSg">
+      <elements xmi:type="process:Lane" xmi:id="_420ikCN5Ee-H9PTMz2iHSg" name="Validador" actor="_humicCN8Ee-H9PTMz2iHSg">
         <elements xmi:type="process:Task" xmi:id="_z7aYhyN5Ee-H9PTMz2iHSg" name="Validar solicitud" outgoing="_z7aY1SN5Ee-H9PTMz2iHSg" incoming="_z7aY0iN5Ee-H9PTMz2iHSg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_z7aYiCN5Ee-H9PTMz2iHSg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_z7aYiSN5Ee-H9PTMz2iHSg" name="" content="" returnTypeFixed="true"/>
